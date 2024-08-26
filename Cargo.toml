@@ -1,0 +1,18 @@
+[package]
+name = "mdxtree"
+version = "0.1.2"
+authors = ["Mayne <i@gine.me>"]
+description = "A tool to generate file tree structure in MDX format for Astro's Starlight components"
+license = "MIT"
+repository = "https://github.com/mayneyao/mdxtree"
+readme = "README.md"
+keywords = ["mdx", "file-tree", "astro", "starlight"]
+categories = ["command-line-utilities", "development-tools"]
+edition = "2021"
+
+[dependencies]
+walkdir = "2.3"
+serde_json = "1.0"
+anyhow = "1.0"
+clap = { version = "4.0", features = ["derive"] }
+ignore = "0.4"
